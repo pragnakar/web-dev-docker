@@ -1,0 +1,2 @@
+npm init -d to install package and json.  nodemon needs to installed for continus update during dev time. 
+

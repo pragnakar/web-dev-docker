@@ -1,0 +1,21 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "main": "server.js",
+ "scripts": {
+    "dev": "nodemon --legacy-watch server.js",
+    "start": "node server.js",
+    "_comment": ["start  is used deployment and nodemon in dev",
+    " is used for development, change reflected in docker-compose.yml"]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}

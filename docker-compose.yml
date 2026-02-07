@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  app:
+    image: node:18-alpine
+    container_name: node_app
+    working_dir: /app/back-end
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./back-end:/app/back-end
+      - ./front-end:/app/front-end
+    command: npm run dev
